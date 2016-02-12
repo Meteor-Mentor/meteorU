@@ -21,6 +21,7 @@ Give us all the information you have.
 ##Contributing
 Always make a new branch for your work - no matter how small.   
 Use different branches/pull requests for different topics - don't submit one messy commit.
+By contributing, you accept the MIT licencing of your work.
 
 Where to base your branch:
 * If it's a bugfix base it one the branch the bug was introduced, so we can merge it forward in all branches.
@@ -41,3 +42,24 @@ Please document your code so someone else has a slight chance to
 ##Tests
 
 [//]: # (add a section about testing as soon as we know what testing we're gonna use)
+
+##Full example
+###Preparing the fork
+1. Hit 'fork' on github
+2. Clone your project: git clone git@github.com:yourname/theproject
+3. Create a branch: cd theproject; git checkout -b my-feature
+ 
+###Making your Changes
+1. Run Tests
+2. Write Tests for your changes
+3. Code your changes
+4. Make sure all tests pass
+5. Commit your changes: git commit -m "Foo the bars"
+
+###Creating Pull Requests
+
+1. Push your commit to get it back up to your fork: git push origin HEAD
+2. Visit Github, click “Pull request” button.
+3. In the description field, write down issue number (if submitting code fixing an existing issue) or describe the issue + your fix (if submitting a wholly new bugfix).
+4. Hit ‘submit’!
+
