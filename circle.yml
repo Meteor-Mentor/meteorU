@@ -1,0 +1,15 @@
+dependencies:
+  cache_directories:
+    - ~/.meteor
+  override:
+    - meteor || curl https://install.meteor.com | /bin/sh
+
+test:
+  override:
+
+deployment:
+  production:
+    branch: "master"
+    commands:
+      - printf "${name}\n${password}\n" | meteor login --email
+      - meteor deploy meteormentors.meteor.com
