@@ -1,3 +1,5 @@
+# CI
+[![Circle CI](https://circleci.com/gh/Meteor-Mentor/meteor_mentor/tree/master.svg?style=svg)](https://circleci.com/gh/Meteor-Mentor/meteor_mentor/tree/master)
 # Introduction
 Meteor-Mentor is an approach to unite **mentors** with passionate **students**.
 For the time being, the first goal is to create a mentor platform, which allows scheduling meetups but also provides functionality to create courses...see issues for further discussions.
