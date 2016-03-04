@@ -1,0 +1,60 @@
+<template name="header">
+  <header id="header" class="hidden-xs">
+      <div class="container">
+          <div id="header-title">
+              <h1><a href="/">Meteor <span>Mentor</span></a></h1>
+              <p>a crowd mind project</p>
+          </div>
+
+
+          <div id="search-header" class="hidden-xs animated bounceInRight">
+              <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search...">
+                      <span class="input-group-btn">
+                          <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+                      </span>
+              </div><!-- /input-group -->
+          </div>
+      </div> <!-- container -->
+  </header> <!-- header -->
+
+  <nav class="navbar navbar-static-top navbar-mind" role="navigation">
+      <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+              <a class="navbar-brand visible-xs" href="/">Meteor <span>Mentor</span></a>
+
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-mind-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <i class="fa fa-bars fa-inverse"></i>
+              </button>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-mind-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class="active"><a href="/leftnav">Left Nav Sample</a></li>
+                            <li><a href="/fullpage">Full Page Sample</a></li>
+                        </ul>
+                    </li> <!-- dropdown -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Menu <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/">Item 1</a></li>
+                            <li><a href="/">Item 2</a></li>
+                        </ul>
+                    </li> <!-- dropdown -->
+                </ul> <!-- nav nabvar-nav -->
+
+                <ul class="nav navbar-nav navbar-right" style="margin-top:12px;">
+                    <li class="dropdown">
+                          {{> loginButtons}}
+                    </li> <!-- dropdown -->
+                </ul> <!-- nav nabvar-nav -->
+            </div><!-- navbar-collapse -->
+          </div> <!-- container -->
+          </nav> <!-- navbar navbar-default -->
+          <div style="margin-bottom: 20px">&nbsp;</div>
+</template>
