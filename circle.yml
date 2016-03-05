@@ -6,6 +6,7 @@ dependencies:
 
 test:
   override:
+    - printf "no tests yet"
 
 deployment:
   production:
