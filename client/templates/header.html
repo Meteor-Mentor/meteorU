@@ -1,5 +1,42 @@
 <template name="header">
   <header id="header">
-      {{> loginButtons}}
+      <div class="navbar navbar-default navbar-static-top">
+          <div class="container">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand"><img height="20" alt="Brand" src="images/meteoru.png"></a>
+              </div>
+              <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+                  <ul class="nav navbar-nav navbar-left">
+                      <li class="active">
+                          <a href="#"><span class="glyphicon glyphicon-inbox hidden-md"></span>Projects</a>
+                      </li>
+                      <li>
+                          <a href="#"><span class="glyphicon glyphicon-user hidden-md"></span>People</a>
+                      </li>
+                      <li>
+                          <a href="#"><span class="glyphicon glyphicon-blackboard hidden-md"></span>Notes</a>
+                      </li>
+                      <li>
+                          <a href="#"><span class="glyphicon glyphicon-calendar hidden-md"></span>Calendar</a>
+                      </li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+
+                      <li>
+                          <a href="#"><span class="glyphicon glyphicon-cog hidden-md"></span>Settings</a>
+                      </li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                      {{> loginButtons}} <!-- here -->
+                  </ul>
+              </div>
+          </div>
+      </div>
   </header>
 </template>
