@@ -8,6 +8,11 @@ Contributions
 -------------
 Everyone is invited to contribute to this project.
 
+Channels
+--------
+There's a youtube channel with all the public hangouts:
+https://www.youtube.com/channel/UCrpO4ncdMHgST23d-0IQb5A
+
 Press ;)
 --------
 https://medium.com/meteor-mentor/how-to-find-a-meteor-mastermind-group-c4f98759d574#.u3zmvo29y
