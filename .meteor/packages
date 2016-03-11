@@ -20,5 +20,5 @@ meteorhacks:flow-layout
 accounts-meteor-developer
 standard-minifier-css
 standard-minifier-js
+accounts-ui
 twbs:bootstrap
-ian:accounts-ui-bootstrap-3
