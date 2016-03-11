@@ -6,7 +6,7 @@ dependencies:
 
 test:
   override:
-    - printf "no tests yet"
+    - npm test
 
 deployment:
   production:
